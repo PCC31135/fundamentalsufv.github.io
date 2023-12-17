@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About Me</title>
+	<link rel="stylesheet" href="/home/pablo/Escritorio/Fundamentos/fundamentalsufv.github.io/docs/css/style-about.css">
+  <title>About Me</title>
+</head>
+<body>
+  <div class="section">
+    <div class="hero">
+      <article>
+        <h1>About Me</h1>
+        <img src="/home/pablo/Escritorio/Fundamentos/fundamentalsufv.github.io/docs/images/Captura desde 2023-12-16 16-04-05.png">
+        <content>
+          I am a student at the Francisco de Vitoria University who is studying a degree in Computer Engineering. I am 18 years old and I live in Madrid.
+          I have always had a great passion for music, which has led me to create this personal blog in which I can share with you my musical tastes and what I consider the best songs of some of the genres that I enjoy listening to the most.
+          Apart from listening to this music, I am a great fan of instruments like the guitar or the piano. I hope you enjoy these recommendations as much as I do.
+        </content> 
+        <h5>My Music</h5>
+        <p>Pablo Cerdeira Crespo</p>
+      </article>
+
+    </div>
+    
+  </div>
+</body>
+</html>
