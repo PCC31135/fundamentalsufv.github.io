@@ -1,0 +1,314 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-family: 'Poppins';
+	font-size: 1.6rem;
+}
+
+img{
+	max-width: 100%;
+}
+
+.contenedor{
+	max-width: 120rem;
+	margin: 0 auto;
+}
+
+/* Header */
+header{
+	background-color:  #011025;
+	color: #fff;
+}
+
+.logo a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.logo{
+	display: flex;
+	gap: 1.5rem;
+	align-items: center;
+}
+
+.logo{
+	display: flex;
+	gap: 1.5rem;
+	align-items: center;
+}
+
+.logo img{
+	width: 2.5rem;
+}
+
+.menu-nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem;
+}
+
+.navegacion a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+.navegacion ul{
+	display: flex;
+	gap: 4rem;
+}
+
+.navegacion li{
+	list-style: none;
+}
+
+/* Segunda parte del header */
+
+.contenedor-header{
+	display: flex;
+	max-width: 140rem;
+	margin: 0 auto;
+	align-items: center;
+	padding: 4rem;
+	padding-bottom: 9rem;
+}
+
+.contenedor-header h1{
+	font-weight: 800;
+	font-size: 4.5rem;
+}
+
+.contenedor-header p{
+	padding-right: 8rem;
+	color: #d4cecf;
+	line-height: 1.7;
+}
+
+.botones-header{
+	margin-top: 4rem;
+}
+
+.botones-header a:first-child{
+	background-color: #059669;
+	color: #fff;
+	padding: 1.3rem 2rem;
+	font-size: 1.4rem;
+	border-radius: .5rem;
+	margin-right: 1.5rem;
+	text-decoration: none;
+}
+
+.botones-header a:last-child{
+	background-color: #f5f5f5;
+	color: #404040;
+	padding: 1.3rem 2rem;
+	font-size: 1.4rem;
+	border-radius: .5rem;
+	text-decoration: none;
+}
+
+.contenedor-header img{
+	width: 100%;
+}
+
+/* Main */
+
+main{
+	border: 1px solid transparent;
+	background-color: #1e293b;
+	color: #d4d4d4;
+}
+
+.seccion-principal{
+	margin: 0 auto;
+	max-width: 90rem;
+	padding: 8rem 0;
+}
+
+.seccion-principal h2,
+.seccion-principal p{
+	text-align: center;
+}
+
+.seccion-principal > h2{
+	font-weight: 700;
+	font-size: 2.6rem;
+	
+	color: #f5f5f5;
+}
+
+.parrafo-titulo{
+	margin-bottom: 8rem;
+}
+
+.contenedor-articulso{
+	display: flex;
+	flex-direction: column;
+}
+
+.articulo{
+	border-bottom: 2px solid #525252;
+	padding: 4.8rem 0;
+}
+
+.articulo:nth-child(5){
+	border-bottom: none;
+	margin-bottom: 2rem;
+}
+
+/* Categorías */
+
+.etiquete{
+	background-color: #334155;
+	color: #d4d4d4;
+	padding: .5rem 1rem;
+	font-size: 1.3rem;
+	border-radius: .5rem;
+}
+
+.span-lecture{
+	color: #a3a3a3;
+	font-size: 1.5rem;
+}
+
+/* Contenido del artículo */
+
+.articulo h2{
+	text-align: left;
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+.articulo h2 a{
+	color: #fff;
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+.articulo p{
+	text-align: left;
+	line-height: 1.6;
+	font-size: 1.5rem;
+}
+
+.mas-informacion{
+	display: flex;
+	justify-content: space-between;
+}
+
+.articulo a{
+	text-decoration: none;
+	color: #10b981;
+	font-size: 1.7rem;
+	font-weight: 500;
+}
+
+/* Boton de ver todos */
+
+.contenedor-btn{
+	display: flex;
+	justify-content: center;
+}
+
+.btn-ver-todos{
+	text-decoration: none;
+	color: #fff;
+	background-color: #10b981;
+	padding: 1rem 3rem;
+	border-radius: .5rem;
+}
+
+.btn-ver-todos:hover{
+	background-color: #10b98190;
+}
+
+/* Footer */
+
+footer{
+	background-color: #0f172a;
+	border: 1px solid transparent;
+}
+
+.contenedor-footer{
+	color: #fff;
+	max-width: 130rem;
+	margin: 0 auto;
+	display: flex;
+	padding: 10rem 1rem;
+	justify-content: space-between;
+}
+
+.contenedor-footer ul{
+	padding: 0;
+}
+
+.contenedor-footer li{
+	list-style: none;
+}
+
+.contenedor-footer a{
+	text-decoration: none;
+	color: #d4d4d4;
+	line-height: 2;
+	font-size: 2rem;
+	font-size: 1.5rem;
+}
+
+.contenedor-footer a:hover{
+	color: #fff;
+}
+
+.contenedor-footer2{
+	background-color: #1e293b;
+	color: #a3a3a3;
+	padding: 1.5rem 0 ;
+}
+
+.footer-final{
+	max-width: 120rem;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+/* ABOUT ME */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppings', sans-serif;
+    text-align: center;
+}
+
+.section{
+    min-height: 100vh;
+}
+
+.hero{
+    width: 80%;
+    margin:auto;
+    padding: 30px 0px;
+}
+
+article h1{
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fcba03;
+}
+
+img{
+    margin: auto;
+    display: block;
+}
